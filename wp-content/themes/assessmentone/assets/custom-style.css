@@ -1,0 +1,185 @@
+html{
+    margin-top:0 !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    width: 100px;
+    text-align: center;
+    font-size: 18px; 
+    letter-spacing: 1px; 
+    display: inline-block; 
+    padding: 15px 0; 
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-content {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    width: 45%;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+
+/* Post */
+.post {
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.post h1 {
+    margin-bottom: 0;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+.row > div {
+    margin-bottom: 20px;
+}
+
+.col-md-8 {
+    width: 70%; 
+}
+
+.post-list article {
+    margin-bottom: 20px;
+}
+
+.post-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post {
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    position: relative;
+}
+
+.post div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.post div h1 {
+    font-size: 4em;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post-list article {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.post-list article > a > img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.container p {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
